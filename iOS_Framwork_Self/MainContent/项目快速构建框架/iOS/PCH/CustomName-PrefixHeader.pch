@@ -1,0 +1,41 @@
+//
+//  JiMi-PrefixHeader.pch
+//  JiMi
+//
+//  Created by YangTianCi on 2018/4/24.
+//  Copyright © 2018年 www.JiMi.com. All rights reserved.
+//
+
+#ifndef JiMi_PrefixHeader_pch
+#define JiMi_PrefixHeader_pch
+
+#pragma mark >>>>>>>>>> 常用宏
+
+#import "macro.h"
+
+#pragma mark >>>>>>>>>> 布局常用宏, 颜色宏
+
+#import "LayoutAndColor.h"
+
+#pragma mark >>>>>>>>>> URL
+
+#import "URL.h"
+
+#pragma mark >>>>>>>>>> 本地类导入
+
+#import "NSString+Regular.h"
+
+#pragma mark >>>>>>>>>> 三方文件导入
+
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <IQKeyboardManager.h>
+#import <MJRefresh/MJRefresh.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <AFNetworking.h>
+#import <Masonry.h>
+#import <SDCycleScrollView.h>
+#import <UIImageView+WebCache.h>
+
+
+
+#endif /* JiMi_PrefixHeader_pch */

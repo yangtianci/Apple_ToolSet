@@ -1,0 +1,14 @@
+
+
+platform :ios, '8.0'
+
+target 'TableView嵌套(纯净版)&分页控制器' do
+    pod 'AFNetworking'
+    pod 'Masonry'
+    pod 'MBProgressHUD' 
+    pod 'IQKeyboardManager'
+    pod 'MJRefresh'
+    
+end
+
+

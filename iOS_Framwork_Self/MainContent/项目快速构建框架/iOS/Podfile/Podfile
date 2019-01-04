@@ -1,0 +1,25 @@
+platform :ios, '8.0'
+
+target 'ProductName' do
+
+//友盟相关 
+    pod 'UMengUShare/Social/ReducedWeChat'
+    pod 'UMengUShare/Social/ReducedQQ'
+    pod 'UMengUShare/Social/ReducedSina'
+    pod 'UMengUShare/Social/Email'
+    pod 'UMengUShare/Social/SMS'
+    pod 'UMengAnalytics' 
+
+//常用三方框架 
+    pod 'AFNetworking'
+    pod 'Masonry'
+    pod 'MBProgressHUD'
+    pod 'MJExtension'
+    pod 'IQKeyboardManager'
+    pod 'MJRefresh'
+    pod 'SDCycleScrollView'
+    pod 'YYModel' 
+    pod 'ReactiveObjC'
+    pod 'NerdyUI'
+    
+end

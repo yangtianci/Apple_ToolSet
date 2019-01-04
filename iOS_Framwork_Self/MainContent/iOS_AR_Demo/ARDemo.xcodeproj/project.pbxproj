@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B1E0C420464EF300D99D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1E0C320464EF300D99D81 /* AppDelegate.m */; };
+		72B1E0C720464EF300D99D81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1E0C620464EF300D99D81 /* ViewController.m */; };
+		72B1E0CA20464EF300D99D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B1E0C820464EF300D99D81 /* Main.storyboard */; };
+		72B1E0CC20464EF300D99D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B1E0CB20464EF300D99D81 /* Assets.xcassets */; };
+		72B1E0CF20464EF300D99D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B1E0CD20464EF300D99D81 /* LaunchScreen.storyboard */; };
+		72B1E0D220464EF300D99D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1E0D120464EF300D99D81 /* main.m */; };
+		72B1E0E020464F5A00D99D81 /* SceneARController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1E0DF20464F5A00D99D81 /* SceneARController.m */; };
+		72B1E0E22046546000D99D81 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B1E0E12046546000D99D81 /* art.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72B1E0BF20464EF300D99D81 /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B1E0C220464EF300D99D81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72B1E0C320464EF300D99D81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72B1E0C520464EF300D99D81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72B1E0C620464EF300D99D81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72B1E0C920464EF300D99D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72B1E0CB20464EF300D99D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B1E0CE20464EF300D99D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72B1E0D020464EF300D99D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B1E0D120464EF300D99D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72B1E0DE20464F5A00D99D81 /* SceneARController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneARController.h; sourceTree = "<group>"; };
+		72B1E0DF20464F5A00D99D81 /* SceneARController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneARController.m; sourceTree = "<group>"; };
+		72B1E0E12046546000D99D81 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B1E0BC20464EF300D99D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72B1E0B620464EF300D99D81 = {
+			isa = PBXGroup;
+			children = (
+				72B1E0DA20464F3700D99D81 /* Demo */,
+				72B1E0C120464EF300D99D81 /* ARDemo */,
+				72B1E0C020464EF300D99D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72B1E0C020464EF300D99D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B1E0BF20464EF300D99D81 /* ARDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B1E0C120464EF300D99D81 /* ARDemo */ = {
+			isa = PBXGroup;
+			children = (
+				72B1E0C220464EF300D99D81 /* AppDelegate.h */,
+				72B1E0C320464EF300D99D81 /* AppDelegate.m */,
+				72B1E0C520464EF300D99D81 /* ViewController.h */,
+				72B1E0C620464EF300D99D81 /* ViewController.m */,
+				72B1E0C820464EF300D99D81 /* Main.storyboard */,
+				72B1E0CB20464EF300D99D81 /* Assets.xcassets */,
+				72B1E0CD20464EF300D99D81 /* LaunchScreen.storyboard */,
+				72B1E0D020464EF300D99D81 /* Info.plist */,
+				72B1E0D120464EF300D99D81 /* main.m */,
+			);
+			path = ARDemo;
+			sourceTree = "<group>";
+		};
+		72B1E0DA20464F3700D99D81 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				72B1E0DB20464F3700D99D81 /* Metal */,
+				72B1E0DC20464F3700D99D81 /* Scene */,
+				72B1E0DD20464F3700D99D81 /* Sprite */,
+			);
+			name = Demo;
+			path = ARDemo/Demo;
+			sourceTree = "<group>";
+		};
+		72B1E0DB20464F3700D99D81 /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		72B1E0DC20464F3700D99D81 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				72B1E0E12046546000D99D81 /* art.scnassets */,
+				72B1E0DE20464F5A00D99D81 /* SceneARController.h */,
+				72B1E0DF20464F5A00D99D81 /* SceneARController.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		72B1E0DD20464F3700D99D81 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sprite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B1E0BE20464EF300D99D81 /* ARDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B1E0D520464EF300D99D81 /* Build configuration list for PBXNativeTarget "ARDemo" */;
+			buildPhases = (
+				72B1E0BB20464EF300D99D81 /* Sources */,
+				72B1E0BC20464EF300D99D81 /* Frameworks */,
+				72B1E0BD20464EF300D99D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDemo;
+			productName = ARDemo;
+			productReference = 72B1E0BF20464EF300D99D81 /* ARDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B1E0B720464EF300D99D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = www.YangTianCi.com;
+				TargetAttributes = {
+					72B1E0BE20464EF300D99D81 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72B1E0BA20464EF300D99D81 /* Build configuration list for PBXProject "ARDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B1E0B620464EF300D99D81;
+			productRefGroup = 72B1E0C020464EF300D99D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B1E0BE20464EF300D99D81 /* ARDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B1E0BD20464EF300D99D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B1E0CF20464EF300D99D81 /* LaunchScreen.storyboard in Resources */,
+				72B1E0E22046546000D99D81 /* art.scnassets in Resources */,
+				72B1E0CC20464EF300D99D81 /* Assets.xcassets in Resources */,
+				72B1E0CA20464EF300D99D81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B1E0BB20464EF300D99D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B1E0C720464EF300D99D81 /* ViewController.m in Sources */,
+				72B1E0D220464EF300D99D81 /* main.m in Sources */,
+				72B1E0C420464EF300D99D81 /* AppDelegate.m in Sources */,
+				72B1E0E020464F5A00D99D81 /* SceneARController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72B1E0C820464EF300D99D81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B1E0C920464EF300D99D81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72B1E0CD20464EF300D99D81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72B1E0CE20464EF300D99D81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72B1E0D320464EF300D99D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72B1E0D420464EF300D99D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72B1E0D620464EF300D99D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3E7LJWVD8;
+				INFOPLIST_FILE = ARDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YangTianCi.www.ARDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72B1E0D720464EF300D99D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E3E7LJWVD8;
+				INFOPLIST_FILE = ARDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YangTianCi.www.ARDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B1E0BA20464EF300D99D81 /* Build configuration list for PBXProject "ARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B1E0D320464EF300D99D81 /* Debug */,
+				72B1E0D420464EF300D99D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B1E0D520464EF300D99D81 /* Build configuration list for PBXNativeTarget "ARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B1E0D620464EF300D99D81 /* Debug */,
+				72B1E0D720464EF300D99D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72B1E0B720464EF300D99D81 /* Project object */;
+}
