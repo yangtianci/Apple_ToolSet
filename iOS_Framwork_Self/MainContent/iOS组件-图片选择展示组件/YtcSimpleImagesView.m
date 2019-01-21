@@ -43,6 +43,7 @@
 -(void)ConfigImgArr:(NSArray *)imgArr CallBack:(void (^)(CGRect))callBack{
     
     self.dataArr = [NSMutableArray arrayWithArray:imgArr];
+    _flow.itemSize = CGSizeMake(itemWidth, itemHeight);
     [self.mainCollectionView reloadData];
     
     if (callBack) {
