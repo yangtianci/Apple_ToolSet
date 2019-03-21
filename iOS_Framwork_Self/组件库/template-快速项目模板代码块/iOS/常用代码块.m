@@ -2,6 +2,20 @@
 
 <#Content#>
 
+
+#pragma mark >>>>>>>>>> debug 标签
+
+Yy_tag_port/vc/mod/debug
+
+// ytc_port_<#name#>
+
+// ytc_view/VC_<#name#>
+
+// ytc_model_<#name#>
+
+// ytc_debug_test_<#name#>
+
+
 #pragma mark >>>>>>>>>> 属性
 
 @property (nonatomic, copy) NSString *<#property#>; // Yy_String 字符属性
