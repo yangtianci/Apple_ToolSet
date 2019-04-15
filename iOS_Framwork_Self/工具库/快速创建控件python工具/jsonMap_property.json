@@ -1,0 +1,17 @@
+
+
+{
+
+	"Objc":"@property (strong, nonatomic) <#type#> *<#name#>;",
+
+	"Assign":"@property (assign, nonatomic) <#type#> <#name#>;",
+
+	"Copy":"@property (copy, nonatomic) <#type#> *<#name#>;"
+
+}
+
+
+
+
+
+
