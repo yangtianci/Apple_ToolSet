@@ -10,6 +10,9 @@
 
 @interface TCLayoutTool : NSObject
 
+
+
+
 #pragma mark >>>>>>>>>> 创建单例
 
 +(instancetype)shareInstance;
