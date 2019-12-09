@@ -32,7 +32,13 @@
     
     self.progressBlock = progressBlock;
     self.finishBlcok = finishBlcok;
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(timerCountDown:) userInfo:nil repeats:YES];
+//    self.timer = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(timerCountDown:) userInfo:nil repeats:YES];
+    
+    self.timer = [NSTimer timerWithTimeInterval:1 target:self selector:@selector(timerCountDown:) userInfo:nil repeats:YES];
+    
+    [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
+
+    
 }
 
 -(void)timerCountDown:(NSTimer *)timer{
