@@ -107,7 +107,7 @@ sys.setdefaultencoding('utf8')
 
 pwd = sys.argv[1] 
 
-dayCount = 3 
+dayCount = 2 
 
 ########################## 
 
