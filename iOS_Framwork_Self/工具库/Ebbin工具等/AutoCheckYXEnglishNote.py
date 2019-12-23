@@ -25,12 +25,12 @@ def GUIShowMethod(WrapperArr, AimCount):
 
 	app = wx.App(False)
 
-	frame = wx.Frame(None, wx.ID_ANY,size=(650,750), title="Ebbins-english")
+	frame = wx.Frame(None, wx.ID_ANY,size=(650,750), title="Ebbins-Eng")
 	pannel = wx.ScrolledWindow(frame, wx.ID_ANY, pos=(10,10), size=(300,300), name="PanelNameStr") 
 	pannel.SetScrollbars(0, 20, 20, 60)
 
 
-	aimCountStr = 'english - 检索到 %d 篇' % AimCount 
+	aimCountStr = 'eng - 检索到 %d 篇' % AimCount 
 	label = wx.TextCtrl ( pannel,pos=(20, 10),size=(600,30),value = aimCountStr,style = wx.TE_READONLY | wx.TE_CENTER )
 
 	testView(WrapperArr,pannel) 
